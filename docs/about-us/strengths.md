@@ -1,12 +1,4 @@
----
-title: "Strengths"
-date: 2021-04-21T11:22:12+06:00
-image: "images/torento/image-1.jpeg"
-description : "Strengths of Torento Engineering Private Ltd"
-draft: false
-read_more: true
----
-
+# Strengths
 As the renowned brand "Torento," we take pride in our diverse range of over 50 machinery types catering not only to the shoe-making industry but also to various other sectors, including headwear, apparels, packaging, and more. With a dedicated team of over 40 staff members, each equipped with their unique capacities and extensive experience, we propel Torento toward its destination.
 
 Moreover, as a group of companies, Torento possesses state-of-the-art equipment worth millions of rupees, enabling us to excel in designing, fabricating, and machining. This cutting-edge technology empowers us to deliver exceptional products.

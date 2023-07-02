@@ -1,11 +1,4 @@
----
-title: "Qualities"
-date: 2021-04-21T11:22:11+06:00
-image: "images/torento/image-1.jpeg"
-description : "Qualities of Torento Engineering Private Ltd"
-draft: false
-read_more: true
----
+# Qualities
 
 As a group of companies, Torento Engineering Private Ltd upholds the following qualities:
 

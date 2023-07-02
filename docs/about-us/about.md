@@ -1,12 +1,4 @@
----
-title: "About Us"
-date: 2022-10-21T11:22:16+06:00
-image: "images/torento/image-1.jpeg"
-description : "About Torento Engineering Private Ltd"
-draft: false
-read_more: true
----
-
+# About Us
 Welcome to Torento Engineering Private Ltd, your trusted source for cutting-edge shoe manufacturing machinery, cutting dies, and accessories. With a legacy that dates back to 1986, we have been the pioneers in Sri Lanka, revolutionizing the industry and setting new standards of excellence.
 
 Our journey began as Torento Engineering Enterprises, a small-scale partnership founded by Deshabimani Srilankathilaka Jeewanasuri Dayantha Hempala De Soysa. Drawing from his personal experience at Ceylon Leather Products Corporation, where imported shoe machinery dominated the market, Mr. De Soysa had a vision to make high-quality, locally manufactured machines accessible to small and medium-scale industries. This led to a paradigm shift in the industry, as we successfully reintroduced Sri Lankan machinery into the market while adhering to international standards.

@@ -1,10 +1,4 @@
----
-title: "Mission"
-date: 2021-04-21T11:22:14+06:00
-image: "images/torento/image-1.jpeg"
-description : "Mission of Torento Engineering Private Ltd"
-draft: false
----
+# Mission
 
 At Torento Engineering Private Ltd, our mission is to provide comprehensive industrial machinery solutions to entrepreneurs across all scales in the industrial sector. Through our commitment to manufacturing and selling high-quality, efficient machines that meet international standards, we empower businesses to thrive and excel in their operations.
 
