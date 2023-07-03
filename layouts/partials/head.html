@@ -29,7 +29,7 @@
   {{ end }}
   {{ template "_internal/opengraph.html" . }}
   <!-- {{ template "_internal/google_analytics_async.html" . }} -->
-  {{ if .Site.Params.GoogleAnalyticsID }}
+  {{ if GoogleAnalytics }}
   {{ partial "analytics-gtag.html" . }}
   {{ end }}
 </head>
