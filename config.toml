@@ -6,7 +6,6 @@ title = "Torento Engineering (PVT) Ltd"
 summarylength = "20"
 # google analytics
 # googleAnalytics = "UA-27340941-1" # Ex: UA-123-45
-googleAnalytics = "G-7KC5KFQ3FM" # Ex: UA-123-45
 # disable language
 disableLanguages = ["fr"] # disable language from here
 
@@ -103,6 +102,7 @@ currency = "LKR"
 # contact_form_action = "#" # contact form works with https://formspree.io
 # snipcart public api key
 # snipcart_api = "ZDgxY2ZiM2EtMWRmMi00M2ZkLWI1MDAtNzA2MDc0Y2Q1MzJlNjM3MTAzNDIwOTQ1NDA4NjM4"
+googleAnalyticsID = "G-7KC5KFQ3FM"
 
 # Preloader
 [params.preloader]
