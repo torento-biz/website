@@ -9,8 +9,11 @@ office:
   email: "info@torento.biz"
   location: "2A Weboda East, Weboda, Sri Lanka, 11858"
   linkedin: "https://www.linkedin.com/company/torento-engineering"
-  youtube: "https://www.youtube.com/@TorentoEngineering
-  # content: "We are located at:"
+  youtube: "https://www.youtube.com/@TorentoEngineering"
+  facebook: "https://www.facebook.com/people/Torento-Engineering-pvt-ltd"
+  twitter: ""
+  instagram: ""
+  content: ""
 
 # opennig hour
 opennig_hour:
