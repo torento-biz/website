@@ -1,14 +1,16 @@
 ---
 title: "Contact"
-description : "this is a meta description"
+description: "this is a meta description"
 
 office:
-  title : "Headquarters"
-  phone : "+94 112 972433, +94 115 670231"
-  fax : "+94 112 972433"
-  email : "info@torento.biz"
-  location : "2A Weboda East, Weboda, Sri Lanka, 11858"
-  content : "We are located at:"
+  title: "Headquarters"
+  phone: "+94 112 972433, +94 115 670231"
+  fax: "+94 112 972433"
+  email: "info@torento.biz"
+  location: "2A Weboda East, Weboda, Sri Lanka, 11858"
+  linkedin: "https://www.linkedin.com/company/torento-engineering"
+  youtube: "https://www.youtube.com/@TorentoEngineering
+  # content: "We are located at:"
 
 # opennig hour
 opennig_hour:
