@@ -33,13 +33,6 @@
         </ul>
       </div>
 
-      <!-- Google Maps iframe -->
-      <div class="map-container">
-        {{with .map_iframe}}
-        <iframe src="{{ . }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
-        {{ end }}
-      </div>
-      
       {{ end }}
       <div class="col-lg-3 col-sm-6 mb-5">
         {{ with .Params.opennig_hour }}
@@ -51,11 +44,10 @@
         </ul>
         {{ end }}
       </div>
-    </div>
 
-    <div class="row justify-content-center">
-      {{ with .Params.social_media }}
-      <div class="col-lg-12 mb-5">
+      <!-- Social Media -->
+      <div class="col mb-5">
+        {{ with .Params.social_media }}
         <h2 class="font-weight-bold mb-4">{{ .title | markdownify }}</h2>
         <ul class="list-unstyled contact-list">
           {{with .linkedin}} <li class="mb-3"><a href="{{ . }}"><i class="tf-ion-social-linkedin mr-2"></i>
@@ -71,20 +63,18 @@
           {{with .location }} <li class="mb-3"><i class="tf-ion-ios-location mr-2"></i>
             {{ . }}</li>{{ end }}
         </ul>
-      </div>
-      {{ end }}
-    </div>
-
-    <!-- Google Map section -->
-    <div class="row justify-content-center">
-      {{ with .Params.google_map }}
-      <div class="col-lg-12 mb-5">
-        <h2 class="font-weight-bold mb-4">{{ .title | markdownify }}</h2>
-        {{with .map_iframe}}
-          <iframe src="{{ . }}" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         {{ end }}
       </div>
-      {{ end }}
+
+      <!-- Google Map section -->
+      <div class="col mb-5">
+        {{ with .Params.google_map }}
+        <h2 class="font-weight-bold mb-4">{{ .title | markdownify }}</h2>
+        {{with .map_iframe}}}
+        <iframe src="{{ . }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        {{ end }}
+        {{ end }}
+      </div>
     </div>
 
     <!-- Contact Form
