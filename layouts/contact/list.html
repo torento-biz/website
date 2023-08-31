@@ -9,28 +9,37 @@
         <p>{{ .content | markdownify }}</p>
         <ul class="list-unstyled contact-list">
           {{with .phone}} <li class="mb-3"><a href="tel:{{ . }}"><i class="tf-ion-ios-telephone mr-2"></i>
-              {{ . }}</a></li>{{ end }}
+            {{ . }}</a></li>{{ end }}
+          {{with .phone2}} <li class="mb-3"><a href="tel:{{ . }}"><i class="tf-ion-ios-telephone mr-2"></i>
+            {{ . }}</a></li>{{ end }}
           {{with .mobile}} <li class="mb-3"><a href="tel:{{ . }}"><i class="tf-ion-ios-telephone mr-2"></i>
-              {{ . }}</a></li>{{ end }}
+            {{ . }}</a></li>{{ end }}
           {{with .fax}} <li class="mb-3"><a href="fax:{{ . }}"><i class="tf-ion-ios-printer mr-2"></i>
-              {{ . }}</a></li>{{ end }}
-          {{with .email}} <li class="mb-3"><a href="mailto:{{ . }}"><i class="tf-ion-email mr-2"></i>{{ . }}</a></li>
-          {{end }}
-          {{with .linkedin}} <li class="mb-3"><a href="tel:{{ . }}"><i class="tf-ion-social-linkedin mr-2"></i>
             {{ . }}</a></li>{{ end }}
-          {{with .youtube}} <li class="mb-3"><a href="tel:{{ . }}"><i class="tf-ion-social-youtube mr-2"></i>
+          {{with .email}} <li class="mb-3"><a href="mailto:{{ . }}"><i class="tf-ion-email mr-2"></i>
+            {{ . }}</a></li>{{end }}
+          {{with .linkedin}} <li class="mb-3"><a href="{{ . }}"><i class="tf-ion-social-linkedin mr-2"></i>
             {{ . }}</a></li>{{ end }}
-          {{with .facebook}} <li class="mb-3"><a href="tel:{{ . }}"><i class="tf-ion-social-facebook mr-2"></i>
+          {{with .youtube}} <li class="mb-3"><a href="{{ . }}"><i class="tf-ion-social-youtube mr-2"></i>
             {{ . }}</a></li>{{ end }}
-          {{with .twitter}} <li class="mb-3"><a href="tel:{{ . }}"><i class="tf-ion-social-twitter mr-2"></i>
+          {{with .facebook}} <li class="mb-3"><a href="{{ . }}"><i class="tf-ion-social-facebook mr-2"></i>
             {{ . }}</a></li>{{ end }}
-          {{with .instagram}} <li class="mb-3"><a href="tel:{{ . }}"><i class="tf-ion-social-instagram mr-2"></i>
+          {{with .twitter}} <li class="mb-3"><a href="{{ . }}"><i class="tf-ion-social-twitter mr-2"></i>
             {{ . }}</a></li>{{ end }}
-          {{with .location }} <li class="mb-3"><i class="tf-ion-ios-location mr-2"></i>{{ . }}
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.9241090214127!2d79.98527427525579!3d7.018206792983413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2f8dd49e0925f%3A0xaa67b851ebf7dfc4!2sTorento%20Engineering%20Private%20Ltd!5e0!3m2!1sen!2sus!4v1693499326311!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </li>{{ end }}
+          {{with .instagram}} <li class="mb-3"><a href="{{ . }}"><i class="tf-ion-social-instagram mr-2"></i>
+            {{ . }}</a></li>{{ end }}
+          {{with .location }} <li class="mb-3"><i class="tf-ion-ios-location mr-2"></i>
+            {{ . }}</li>{{ end }}
         </ul>
       </div>
+
+      <!-- Google Maps iframe -->
+      <div class="map-container">
+        {{with .map_iframe}}
+        <iframe src="{{ . }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        {{ end }}
+      </div>
+      
       {{ end }}
       <div class="col-lg-3 col-sm-6 mb-5">
         {{ with .Params.opennig_hour }}
@@ -43,6 +52,30 @@
         {{ end }}
       </div>
     </div>
+
+    <div class="row justify-content-center">
+      {{ with .Params.social_media }}
+      <div class="col-lg-12 mb-5">
+        <h2 class="font-weight-bold mb-4">{{ .title | markdownify }}</h2>
+        <ul class="list-unstyled contact-list">
+          {{with .linkedin}} <li class="mb-3"><a href="{{ . }}"><i class="tf-ion-social-linkedin mr-2"></i>
+            {{ . }}</a></li>{{ end }}
+          {{with .youtube}} <li class="mb-3"><a href="{{ . }}"><i class="tf-ion-social-youtube mr-2"></i>
+            {{ . }}</a></li>{{ end }}
+          {{with .facebook}} <li class="mb-3"><a href="{{ . }}"><i class="tf-ion-social-facebook mr-2"></i>
+            {{ . }}</a></li>{{ end }}
+          {{with .twitter}} <li class="mb-3"><a href="{{ . }}"><i class="tf-ion-social-twitter mr-2"></i>
+            {{ . }}</a></li>{{ end }}
+          {{with .instagram}} <li class="mb-3"><a href="{{ . }}"><i class="tf-ion-social-instagram mr-2"></i>
+            {{ . }}</a></li>{{ end }}
+          {{with .location }} <li class="mb-3"><i class="tf-ion-ios-location mr-2"></i>
+            {{ . }}</li>{{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </div>
+
+
     <div class="row justify-content-center">
       <div class="col-lg-8">
         <!-- <h2 class="font-weight-bold mb-4">{{ .Title | markdownify }}</h2>
