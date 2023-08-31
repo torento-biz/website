@@ -63,7 +63,7 @@
       <div class="col-lg-7 col-sm-10 mb-5">
         {{ with .Params.google_map }}
         <h2 class="font-weight-bold mb-4">{{ .title | markdownify }}</h2>
-        {{with .map_iframe}}}
+        {{with .map_iframe}}
         <iframe src="{{ . }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         {{ end }}
         {{ end }}
