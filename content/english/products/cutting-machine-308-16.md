@@ -16,7 +16,7 @@ description: "Model: 308/16 (SP/TP)"
 colors: ["red", "gray"]
 sizes: ["16 Ton Single Phase", "16 Ton Three Phase"]
 # button link if you don't want to use snipcart. empty link will not show button
-button_link: "#"
+# button_link: "#"
 
 draft: false
 ---
