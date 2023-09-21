@@ -1,5 +1,5 @@
 ---
-title: "Buffing Machine Small  Bench Type"
+title: "Buffing Machine Small Bench Type"
 category: "Rubber Slipper Making Machinery"
 date: 2022-12-01T11:24:18+06:00
 images:
